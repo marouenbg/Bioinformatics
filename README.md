@@ -10,7 +10,7 @@ Contact: marouen.b.guebila@gmail.com
 
   - PDB codes of the proteins analyzed separated by ',' (comma)
 	
-   E.g., 1dxr,1e12,1eys,
+         E.g., 1dxr,1e12,1eys,
 
   - Subunits of each protein separated by ',' and by ';' to separate proteins
 
