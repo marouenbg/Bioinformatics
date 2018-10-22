@@ -1,5 +1,7 @@
 HeliStatistiX is a python v2.7 tool that allows to compute tilt angles of helices and packing angles of helices in interactions, mainly.
 
+The full results of the analysis are part of Chapter 2 of my [Pharm.D. thesis [FR].](https://github.com/marouenbg/marouenbg.github.io/blob/master/documents/These_MBG_Final.pdf)
+
 Contact: marouen.b.guebila@gmail.com
 
 ## Input
