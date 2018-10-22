@@ -10,14 +10,16 @@ Contact: marouen.b.guebila@gmail.com
 
   - PDB codes of the proteins analyzed separated by ',' (comma)
 	
- ...E.g., 1dxr,1e12,1eys,
+   E.g., 1dxr,1e12,1eys,
 
   - Subunits of each protein separated by ',' and by ';' to separate proteins
-	E.g., L,M;A;L,M;
+
+   E.g., L,M;A;L,M;
 
   - Beginning and end of each helix (these information can be taken from OPM database). The start and end of each helix are separated by ','
 Helices are separated by ':', Subunits are separated by '/' ,Proteins are separated by ';'
-	E.g., 33,54:85,106:116,138:171,192:228,251/53,74:111,133:143,165:199,220:263,284;27,50:63,82:106,123:134,153:159,180:199,221:227,250;33,54:92,114:124,146:179,200:237,258/55,75:112,133:143,165:197,220:264,283;3,24:38,57:70,87:98,117:122,141:163,180:190,211/24,41:60,81;
+	
+   E.g., 33,54:85,106:116,138:171,192:228,251/53,74:111,133:143,165:199,220:263,284;27,50:63,82:106,123:134,153:159,180:199,221:227,250;33,54:92,114:124,146:179,200:237,258/55,75:112,133:143,165:197,220:264,283;3,24:38,57:70,87:98,117:122,141:163,180:190,211/24,41:60,81;
 
 ## Ouput 
 
