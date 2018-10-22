@@ -504,7 +504,7 @@ def main():
     nh,hmoy,ap,contacts,closest,loop,first,second,fhydro,shydro,kink_angle,n_kinks,tilt=[],[],[],[],[],[],[],[],[],[],[],[],[]    
     SD,nei_hel,heisenberg,packing,lengtha,lengthaa,first_tour,last_tour,neigh_seq=[],[],[],[],[],[],[],[],[]   
     for i in xrange(len(prot_list)):
-        fichier = open("%s.pdb"%prot_list[i])
+        fichier = open("./data/%s.pdb"%prot_list[i])
         subunit_vector = subunit_list[i]
         subunit_helix = helix_list[i]
 
