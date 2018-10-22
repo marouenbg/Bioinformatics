@@ -14,57 +14,57 @@ Contact: marouen.b.guebila@gmail.com
 
   - Subunits of each protein separated by ',' and by ';' to separate proteins
 
-   E.g., L,M;A;L,M;
+         E.g., L,M;A;L,M;
 
   - Beginning and end of each helix (these information can be taken from OPM database). The start and end of each helix are separated by ','
 Helices are separated by ':', Subunits are separated by '/' ,Proteins are separated by ';'
 	
-   E.g., 33,54:85,106:116,138:171,192:228,251/53,74:111,133:143,165:199,220:263,284;27,50:63,82:106,123:134,153:159,180:199,221:227,250;33,54:92,114:124,146:179,200:237,258/55,75:112,133:143,165:197,220:264,283;3,24:38,57:70,87:98,117:122,141:163,180:190,211/24,41:60,81;
+         E.g., 33,54:85,106:116,138:171,192:228,251/53,74:111,133:143,165:199,220:263,284;27,50:63,82:106,123:134,153:159,180:199,221:227,250;33,54:92,114:124,146:179,200:237,258/55,75:112,133:143,165:197,220:264,283;3,24:38,57:70,87:98,117:122,141:163,180:190,211/24,41:60,81;
 
 ## Ouput 
 
 2 files :
 
--Tilt_angles.csv
+1. Tilt_angles.csv
 
--Packing_angles.csv
+2. Packing_angles.csv
 
-Tilt_angles.csv contains :
+`Tilt_angles.csv` contains :
 
--The tilt angle,
+- The tilt angle,
 
--The helix length in aminoacids number,
+- The helix length in aminoacids number,
 
--The helix length in Angstrom,
+- The helix length in Angstrom,
 
--The mean hydrophobicity of the helix,
+- The mean hydrophobicity of the helix,
 
--The hydrophobic moment of Eisenberg,
+- The hydrophobic moment of Eisenberg,
 
--The number of neighbor helices,
+- The number of neighbor helices,
 
--The number of kinks,
+- The number of kinks,
 
--The greatest angle of kink (relative to the helix axis),
+- The greatest angle of kink (relative to the helix axis),
 
--The composition of aminoacids of the first tour 
+- The composition of aminoacids of the first tour 
 
--The composition of aminoacids of the last tour
+- The composition of aminoacids of the last tour
 
-Packing_angles.csv contains :
+`Packing_angles.csv` contains :
 
--The packing angle between a couple of helices in interaction,
+- The packing angle between a couple of helices in interaction,
 
--The helix orientation (A/P),
+- The helix orientation (A/P),
 
--Number of contacts between helices (based on Chothia definition),
+- Number of contacts between helices (based on Chothia definition),
 
--The minimum distance between the centers of each helix,
+- The minimum distance between the centers of each helix,
 
--The length of the conenxion loop,
+- The length of the conenxion loop,
 
--The number of kinks totalized by both helices
+- The number of kinks totalized by both helices
 
--The hydrophobic moment of Eisenberg of each helix
+- The hydrophobic moment of Eisenberg of each helix
 
 
