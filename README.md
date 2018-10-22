@@ -1,6 +1,6 @@
 HeliStatistiX is a python v2.7 tool that allows to compute tilt angles of helices and packing angles of helices in interactions, mainly.
 
-The full results of the analysis are part of Chapter 2 of my [Pharm.D. thesis [FR].](https://github.com/marouenbg/marouenbg.github.io/blob/master/documents/These_MBG_Final.pdf)
+The full results of the analysis are part of Chapter 4 of my [Pharm.D. thesis [FR].](https://github.com/marouenbg/marouenbg.github.io/blob/master/documents/These_MBG_Final.pdf)
 
 Contact: marouen.b.guebila@gmail.com
 
@@ -35,7 +35,7 @@ Helices are separated by ':', Subunits are separated by '/' ,Proteins are separa
 
 - The tilt angle,
 
-- The helix length in aminoacids number,
+- The helix length in amino acids number,
 
 - The helix length in Angstrom,
 
@@ -63,7 +63,7 @@ Helices are separated by ':', Subunits are separated by '/' ,Proteins are separa
 
 - The minimum distance between the centers of each helix,
 
-- The length of the conenxion loop,
+- The length of the connexion loop,
 
 - The number of kinks totalized by both helices
 
